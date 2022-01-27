@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdv>
+    <words>
+        <word>
+            <id>1</id>
+            <fr>Fichier</fr>
+            <en>File</en>
+        </word>
+        <word>
+            <id>2</id>
+            <fr>Edition</fr>
+            <en>Edit</en>
+        </word>
+        <word>
+            <id>3</id>
+            <fr>Aide</fr>
+            <en>Help</en>
+        </word>
+        <word>
+            <id>4</id>
+            <fr>Nouveau</fr>
+            <en>New</en>
+        </word>
+        <word>
+            <id>5</id>
+            <fr>Ouvrir...</fr>
+            <en>Open...</en>
+        </word>
+        <word>
+            <id>6</id>
+            <fr>Enregistrer</fr>
+            <en>Save</en>
+        </word>
+        <word>
+            <id>7</id>
+            <fr>Enregistrer</fr>
+            <en>Save as</en>
+        </word>
+        <word>
+            <id>8</id>
+            <fr>Fichiers récents...</fr>
+            <en>Recent files...</en>
+        </word>
+        <word>
+            <id>9</id>
+            <fr>Fermer</fr>
+            <en>Close</en>
+        </word>
+        <word>
+            <id>10</id>
+            <fr>Quitter</fr>
+            <en>Exit</en>
+        </word>
+        <word>
+            <id>11</id>
+            <fr>Couper</fr>
+            <en>Cut</en>
+        </word>
+        <word>
+            <id>12</id>
+            <fr>Copier</fr>
+            <en>Copy</en>
+        </word>
+        <word>
+            <id>13</id>
+            <fr>Coller</fr>
+            <en>Paste</en>
+        </word>
+        <word>
+            <id>14</id>
+            <fr>À propos de ReadySDI</fr>
+            <en>About ReadySDI</en>
+        </word>
+        <word>
+            <id>15</id>
+            <fr>À propos de Qt</fr>
+            <en>About Qt</en>
+        </word>
+        <word>
+            <id>16</id>
+            <fr>Langage</fr>
+            <en>Language</en>
+        </word>
+        <word>
+            <id>17</id>
+            <fr/>
+            <en/>
+        </word>
+    </words>
+</rdv>

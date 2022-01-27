@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdv>
+    <settings>
+        <code>window</code>
+        <appname>ReadySpreadsheet</appname>
+        <version>1.0</version>
+        <width>400</width>
+        <height>400</height>
+        <logo>readydev.png</logo>
+        <about>
+            <id>24</id>
+            <text><![CDATA[about]]></text>
+        </about>
+    </settings>
+    <menus>
+        <menu>
+            <name>Fichier</name>
+            <id>1</id>
+            <toolbar>1</toolbar>
+            <submenus>
+                <submenu>
+                    <name>Nouveau</name>
+                    <id>4</id>
+                    <key>file/new</key>
+                    <icon>new.png</icon>
+                    <shortcut>Ctrl+N</shortcut>
+                    <toolbar>1</toolbar>
+                    <statustip>Créer un nouveau tableur</statustip>
+                </submenu>
+                <submenu>
+                    <name>Ouvrir...</name>
+                    <id>5</id>
+                    <key>file/open</key>
+                    <icon>open.png</icon>
+                    <shortcut>Ctrl+O</shortcut>
+                    <toolbar>1</toolbar>
+                    <statustip>Ouvir un tableur existant</statustip>
+                </submenu>
+                <submenu>
+                    <name>Enregistrer</name>
+                    <id>6</id>
+                    <key>file/save</key>
+                    <icon>save.png</icon>
+                    <shortcut>Ctrl+S</shortcut>
+                    <toolbar>1</toolbar>
+                    <statustip>Enregistrer le tableur sur le disque</statustip>
+                </submenu>
+                <submenu>
+                    <name>Enregistrer sous...</name>
+                    <id>7</id>
+                    <key>file/save/as</key>
+                    <statustip>Enregistrer la feuille de calcul sous un nouveau nom</statustip>
+                </submenu>
+                <submenu>
+                    <separator>1</separator>
+                </submenu>
+                <submenu>
+                    <menu>
+                        <name>Fichiers récents...</name>
+                        <id>8</id>
+                        <key>file/recent</key>
+                        <ctrl>1</ctrl>
+                        <recentfile>
+                            <max>5</max>
+                            <key>file/recent/max</key>
+                            <ctrl>1</ctrl>
+                        </recentfile>
+                    </menu>
+                </submenu>
+                <submenu>
+                    <separator>1</separator>
+                    <key>file/recent/separator</key>
+                    <ctrl>1</ctrl>
+                </submenu>
+                <submenu>
+                    <name>Quitter</name>
+                    <id>10</id>
+                    <key>file/exit</key>
+                    <shortcut>Ctrl+Q</shortcut>
+                    <statustip>Quitter l'application</statustip>
+                </submenu>
+            </submenus>
+        </menu>
+        <menu>
+            <name>Edition</name>
+            <id>2</id>
+            <toolbar>1</toolbar>
+            <submenus>
+                <submenu>
+                    <name>Couper</name>
+                    <key>edit/cut</key>
+                    <icon>cut.png</icon>
+                    <shortcut>Ctrl+X</shortcut>
+                    <ctrl>1</ctrl>
+                    <toolbar>1</toolbar>
+                    <statustip>Couper le contenu de la sélection actuelle dans le presse-papiers</statustip>
+                </submenu>
+                <submenu>
+                    <name>Copier</name>
+                    <key>edit/copy</key>
+                    <icon>copy.png</icon>
+                    <shortcut>Ctrl+C</shortcut>
+                    <ctrl>1</ctrl>
+                    <toolbar>1</toolbar>
+                    <statustip>Copier le contenu de la sélection actuelle dans le presse-papiers</statustip>
+                </submenu>
+                <submenu>
+                    <name>Coller</name>
+                    <key>edit/paste</key>
+                    <icon>paste.png</icon>
+                    <shortcut>Ctrl+V</shortcut>
+                    <ctrl>1</ctrl>
+                    <toolbar>1</toolbar>
+                    <statustip>Coller le contenu du presse-papiers dans la sélection actuelle</statustip>
+                </submenu>
+                <submenu>
+                    <name>Supprimer</name>
+                    <key>edit/delete</key>
+                    <shortcut>Del</shortcut>
+                    <statustip>Supprimer le contenu de la sélection actuelle</statustip>
+                </submenu>
+                <submenu>
+                    <menu>
+                        <name>Sélectionner</name>
+                        <key>edit/select</key>
+                        <submenus>
+                            <submenu>
+                                <name>Ligne</name>
+                                <key>edit/select/row</key>
+                                <statustip>Sélectionnez toutes les cellules de la ligne actuelle</statustip>
+                            </submenu>
+                            <submenu>
+                                <name>Colonne</name>
+                                <key>edit/select/column</key>
+                                <statustip>Sélectionnez toutes les cellules de la colonne actuelle</statustip>
+                            </submenu>
+                            <submenu>
+                                <name>Tout</name>
+                                <key>edit/select/all</key>
+                                <shortcut>Ctrl+A</shortcut>
+                                <statustip>Sélectionnez toutes les cellules du tableur</statustip>
+                            </submenu>
+                        </submenus>
+                    </menu>
+                </submenu>
+                <submenu>
+                    <separator>1</separator>
+                </submenu>
+                <submenu>
+                    <name>Trouver...</name>
+                    <key>edit/find</key>
+                    <icon>find.png</icon>
+                    <shortcut>Ctrl+F</shortcut>
+                    <toolbar>1</toolbar>
+                    <toolbarsep>1</toolbarsep>
+                    <statustip>Trouver une cellule correspondante</statustip>
+                </submenu>
+                <submenu>
+                    <name>Aller à la cellule...</name>
+                    <key>edit/gotocell</key>
+                    <icon>gotocell.png</icon>
+                    <shortcut>Ctrl+G</shortcut>
+                    <toolbar>1</toolbar>
+                    <statustip>Aller à la cellule spécifiée</statustip>
+                </submenu>
+            </submenus>
+        </menu>
+        <menu>
+            <name>Outils</name>
+            <id>25</id>
+            <submenus>
+                <submenu>
+                    <name>Recalculer</name>
+                    <key>tools/recalculate</key>
+                    <statustip>Recalculer toutes les formules du tableur</statustip>
+                </submenu>
+                <submenu>
+                    <name>Trier...</name>
+                    <key>tools/sort</key>
+                    <statustip>Trier les cellules sélectionnées ou toutes les cellules</statustip>
+                </submenu>
+            </submenus>
+        </menu>
+        <menu>
+            <name>Options</name>
+            <id>26</id>
+            <submenus>
+                <submenu>
+                    <name>Afficher la grille</name>
+                    <key>options/show/grid</key>
+                    <checkbox>1</checkbox>
+                    <ctrl>1</ctrl>
+                    <statustip>Afficher ou masquer la grille du tableur</statustip>
+                </submenu>
+                <submenu>
+                    <name>Recalculer automatiquement</name>
+                    <key>options/auto/recalculate</key>
+                    <checkbox>1</checkbox>
+                    <ctrl>1</ctrl>
+                    <statustip>Activer ou désactiver le recalcul automatique</statustip>
+                </submenu>
+            </submenus>
+        </menu>
+        <menu>
+            <name>Aide</name>
+            <id>3</id>
+            <menusep>1</menusep>
+            <submenus>
+                <submenu>
+                    <name>A propos de ReadySpreadsheet</name>
+                    <key>help/about/app</key>
+                    <statustip>A propos de ReadySpreadsheet</statustip>
+                </submenu>
+                <submenu>
+                    <name>A propos de Qt</name>
+                    <key>help/about/qt</key>
+                    <statustip>A propos de Qt</statustip>
+                </submenu>
+                <submenu>
+                    <menu>
+                        <name>Langue</name>
+                        <key>help/language</key>
+                        <radiobutton>1</radiobutton>
+                        <index>1</index>
+                        <indexctrl>1</indexctrl>
+                        <submenus>
+                            <submenu>
+                                <name>Français</name>
+                                <key>help/language/fr</key>
+                            </submenu>
+                            <submenu>
+                                <name>English</name>
+                                <key>help/language/en</key>
+                            </submenu>
+                        </submenus>
+                    </menu>
+                </submenu>
+            </submenus>
+        </menu>
+    </menus>
+    <celllocation>
+        <settings>
+            <width>400</width>
+            <height>10</height>
+        </settings>
+        <title>
+            <text>Localisation de cellule</text>
+        </title>
+    </celllocation>
+    <finddialog>
+        <settings>
+            <width>400</width>
+            <height>10</height>
+        </settings>
+        <title>
+            <text>Recherche de texte</text>
+        </title>
+    </finddialog>
+    <sortdialog>
+        <settings>
+            <width>400</width>
+            <height>10</height>
+        </settings>
+        <title>
+            <text>Tri de cellule</text>
+        </title>
+    </sortdialog>
+</rdv>

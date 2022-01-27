@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdv>
+    <socket>
+        <major>2</major>
+        <minor>2</minor>
+        <address>
+            <client>0.0.0.0</client>
+            <server>127.0.0.1</server>
+        </address>
+        <port>8558</port>
+        <backlog>5</backlog>
+        <versionshow>0</versionshow>
+        <hostnameshow>0</hostnameshow>
+        <addressipshow>0</addressipshow>
+        <welcomshow>1</welcomshow>
+        <debugshow>1</debugshow>
+    </socket>
+</rdv>

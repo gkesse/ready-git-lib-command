@@ -1,0 +1,151 @@
+/* ============================================== */
+/* common */
+/* ============================================== */
+QWidget {
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: arial;
+}
+/* ============================================== */
+QPushButton {
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 5px;
+	padding: 10px;
+}
+QPushButton:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+QPushButton:pressed {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+/* ============================================== */
+QLineEdit {
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 2px solid #A0A0A0;
+	border-radius: 5px;
+	padding: 7px;
+}
+/* ============================================== */
+QScrollArea {
+	background-color: rgba(255, 255, 255, 0);
+	margin-bottom: 10px;
+	min-width: 0px;
+	min-height: 0px;
+}
+/* ============================================== */
+QScrollBar:horizontal {
+    border-top: 2px solid transparent;
+    background: transparent;
+    height: 10px;
+    margin: 0px 10px 0px 10px;
+}
+QScrollBar::handle:horizontal {
+    background: rgba(255, 255, 255, 0.4);
+    min-width: 10px;
+}
+QScrollBar::add-line:horizontal {
+    border: none;
+    background: #111111;
+    width: 10px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+    border: none;
+    background: #111111;
+    width: 10px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar:left-arrow:horizontal, 
+QScrollBar::right-arrow:horizontal {
+    border: none;
+    width: 3px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+QScrollBar::add-page:horizontal, 
+QScrollBar::sub-page:horizontal {
+    background: #111111;
+}
+/* ============================================== */
+QScrollBar:vertical {
+	border-left: 2px solid transparent;
+	background: transparent;
+	width: 10px;
+	margin: 10px 0px 10px 0px;
+}
+QScrollBar::handle:vertical {
+	background: rgba(255, 255, 255, 0.4);
+	min-height: 10px;
+}
+QScrollBar::add-line:vertical {
+	border: none;
+	background: #111111;
+	height: 10px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+	border: none;
+	background: #111111;
+	height: 10px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:vertical, 
+QScrollBar::down-arrow:vertical {
+	border: none;
+	width: 3px;
+	height: 3px;
+	background: rgba(255, 255, 255, 0.4);
+}
+QScrollBar::add-page:vertical, 
+QScrollBar::sub-page:vertical {
+	background: #111111;
+}
+/* ============================================== */
+/* special */
+/* ============================================== */
+QPushButton#button_icon {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding-right: 50px;
+}
+QPushButton#button_icon:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+QPushButton#button_icon:pressed {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+QPushButton#button_icon_icon,
+QPushButton#button_icon_icon:hover,
+QPushButton#button_icon_icon:pressed {
+	background-color: transparent;
+	padding: 0px;
+}
+/* ============================================== */
+QLineEdit#lineedit_icon {
+	padding-left: 30px;
+}
+QPushButton#lineedit_icon_icon,
+QPushButton#lineedit_icon_icon:hover,
+QPushButton#lineedit_icon_icon:pressed {
+	background-color: transparent;
+	padding: 0px;
+}
+/* ============================================== */
+/* custom */
+/* ============================================== */
+QFrame#plan {
+	background-color: #111111;
+}
+/* ============================================== */
+QFrame#plan_search {
+	background-color: #555555;
+	border-radius: 5px;
+	max-width: 0px;
+}
+/* ============================================== */

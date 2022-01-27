@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdv>
+    <settings>
+        <appname>ReadySDI</appname>
+        <width>350</width>
+        <height>350</height>
+        <logo>readydev.png</logo>
+        <windowflag>QT_TOOL</windowflag>
+    </settings>
+    <untitled>
+        <name>document</name>
+        <extension>txt</extension>
+    </untitled>
+    <menus>
+        <menu>
+            <name>Fichier</name>
+            <id>1</id>
+            <toolbar>1</toolbar>
+            <submenus>
+                <submenu>
+                    <name>Nouveau</name>
+                    <id>4</id>
+                    <key>file/new</key>
+                    <icon>new.png</icon>
+                    <shortcut>Ctrl+N</shortcut>
+                    <toolbar>1</toolbar>
+                    <statustip>Créer un nouveau fichier</statustip>
+                </submenu>
+                <submenu>
+                    <name>Ouvrir...</name>
+                    <id>5</id>
+                    <key>file/open</key>
+                    <icon>open.png</icon>
+                    <shortcut>Ctrl+O</shortcut>
+                    <toolbar>1</toolbar>
+                    <statustip>Ouvrir un fichier existant</statustip>
+                </submenu>
+                <submenu>
+                    <name>Enregistrer</name>
+                    <id>6</id>
+                    <key>file/save</key>
+                    <icon>save.png</icon>
+                    <shortcut>Ctrl+S</shortcut>
+                    <toolbar>1</toolbar>
+                    <statustip>Enregistrer le document sur le disque</statustip>
+                </submenu>
+                <submenu>
+                    <name>Enregistrer sous...</name>
+                    <id>7</id>
+                    <key>file/saveas</key>
+                    <statustip>Enregistrer le document sous un nouveau nom</statustip>
+                </submenu>
+                <submenu>
+                    <separator>1</separator>
+                </submenu>
+                <submenu>
+                    <menu>
+                        <name>Fichiers récents...</name>
+                        <id>8</id>
+                        <key>file/recent</key>
+                        <ctrl>1</ctrl>
+                        <recentfile>
+                            <max>5</max>
+                            <key>file/recent/max</key>
+                            <ctrl>1</ctrl>
+                        </recentfile>
+                    </menu>
+                </submenu>
+                <submenu>
+                    <separator>1</separator>
+                    <key>file/recent/separator</key>
+                    <ctrl>1</ctrl>
+                </submenu>
+                <submenu>
+                    <name>Fermer</name>
+                    <id>9</id>
+                    <key>file/close</key>
+                    <statustip>Fermer la fenêtre</statustip>
+                </submenu>
+                <submenu>
+                    <name>Quitter</name>
+                    <id>10</id>
+                    <key>file/exit</key>
+                    <statustip>Quitter l'application</statustip>
+                </submenu>
+            </submenus>
+        </menu>
+        <menu>
+            <name>Edition</name>
+            <id>2</id>
+            <toolbar>1</toolbar>
+            <submenus>
+                <submenu>
+                    <name>Couper</name>
+                    <id>11</id>
+                    <key>edit/cut</key>
+                    <icon>cut.png</icon>
+                    <shortcut>Ctrl+X</shortcut>
+                    <toolbar>1</toolbar>
+                    <ctrl>1</ctrl>
+                    <statustip>Couper le contenu de la selection courante dans le presse-papier</statustip>
+                </submenu>
+                <submenu>
+                    <name>Copier</name>
+                    <id>12</id>
+                    <key>edit/copy</key>
+                    <icon>copy.png</icon>
+                    <shortcut>Ctrl+C</shortcut>
+                    <toolbar>1</toolbar>
+                    <ctrl>1</ctrl>
+                    <statustip>Copier le contenu de la selection courante dans le presse-papier</statustip>
+                </submenu>
+                <submenu>
+                    <name>Coller</name>
+                    <id>13</id>
+                    <key>edit/paste</key>
+                    <icon>paste.png</icon>
+                    <shortcut>Ctrl+V</shortcut>
+                    <toolbar>1</toolbar>
+                    <statustip>Coller le contenu du presse-papier dans la selection courante</statustip>
+                </submenu>
+            </submenus>
+        </menu>
+        <menu>
+            <name>Aide</name>
+            <id>3</id>
+            <submenus>
+                <submenu>
+                    <name>À propos de ReadySDI</name>
+                    <id>14</id>
+                    <key>help/app</key>
+                    <statustip>À propos de ReadySDI</statustip>
+                </submenu>
+                <submenu>
+                    <name>À propos de Qt</name>
+                    <id>15</id>
+                    <key>help/qt</key>
+                    <statustip>À propos de Qt</statustip>
+                </submenu>
+                <submenu>
+                    <menu>
+                        <name>Langue</name>
+                        <key>help/language</key>
+                        <id>16</id>
+                        <radiobutton>1</radiobutton>
+                        <index>1</index>
+                        <indexctrl>1</indexctrl>
+                        <submenus>
+                            <submenu>
+                                <name>Français</name>
+                                <groupid>1</groupid>
+                                <key>help/language/fr</key>
+                            </submenu>
+                            <submenu>
+                                <name>English</name>
+                                <groupid>2</groupid>
+                                <key>help/language/en</key>
+                            </submenu>
+                        </submenus>
+                    </menu>
+                </submenu>
+            </submenus>
+        </menu>
+    </menus>
+    <recentfiles/>
+</rdv>

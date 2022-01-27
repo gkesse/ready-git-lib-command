@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdv>
+    <words>
+        <word>
+            <id>1</id>
+            <fr>Fichier</fr>
+            <en>File</en>
+        </word>
+        <word>
+            <id>2</id>
+            <fr>Edition</fr>
+            <en>Edit</en>
+        </word>
+        <word>
+            <id>3</id>
+            <fr>Aide</fr>
+            <en>Help</en>
+        </word>
+        <word>
+            <id>4</id>
+            <fr>Nouveau</fr>
+            <en>New</en>
+        </word>
+        <word>
+            <id>5</id>
+            <fr>Ouvrir...</fr>
+            <en>Open...</en>
+        </word>
+        <word>
+            <id>6</id>
+            <fr>Enregistrer</fr>
+            <en>Save</en>
+        </word>
+        <word>
+            <id>7</id>
+            <fr>Enregistrer</fr>
+            <en>Save as</en>
+        </word>
+        <word>
+            <id>8</id>
+            <fr>Fichiers récents...</fr>
+            <en>Recent files...</en>
+        </word>
+        <word>
+            <id>9</id>
+            <fr>Fermer</fr>
+            <en>Close</en>
+        </word>
+        <word>
+            <id>10</id>
+            <fr>Quitter</fr>
+            <en>Exit</en>
+        </word>
+        <word>
+            <id>11</id>
+            <fr>Couper</fr>
+            <en>Cut</en>
+        </word>
+        <word>
+            <id>12</id>
+            <fr>Copier</fr>
+            <en>Copy</en>
+        </word>
+        <word>
+            <id>13</id>
+            <fr>Coller</fr>
+            <en>Paste</en>
+        </word>
+        <word>
+            <id>14</id>
+            <fr>À propos de ReadyMDI</fr>
+            <en>About ReadyMDI</en>
+        </word>
+        <word>
+            <id>15</id>
+            <fr>À propos de Qt</fr>
+            <en>About Qt</en>
+        </word>
+        <word>
+            <id>16</id>
+            <fr>Langage</fr>
+            <en>Language</en>
+        </word>
+        <word>
+            <id>17</id>
+            <fr>Changer le sens de la disposition</fr>
+            <en>Switch layout direction</en>
+        </word>
+        <word>
+            <id>18</id>
+            <fr>Fenêtre</fr>
+            <en>Window</en>
+        </word>
+        <word>
+            <id>19</id>
+            <fr>Fermer Tout</fr>
+            <en>Close All</en>
+        </word>
+        <word>
+            <id>20</id>
+            <fr>Affichage en carreau</fr>
+            <en>Tile the windows</en>
+        </word>
+        <word>
+            <id>21</id>
+            <fr>Affichage en cascade</fr>
+            <en>Cascade the windows</en>
+        </word>
+        <word>
+            <id>22</id>
+            <fr>Suivant</fr>
+            <en>Next</en>
+        </word>
+        <word>
+            <id>23</id>
+            <fr>Précédent</fr>
+            <en>Previous</en>
+        </word>
+        <word>
+            <id>24</id>
+            <fr>
+<![CDATA[<b>%1</b> est un projet permettant de montrer<br>
+comment construire une application d'interface<br>
+de documents multiples à l'aide de Qt.]]>
+            </fr>
+            <en>
+<![CDATA[<b>%1</b> is a project to demonstrate<br>
+how to build a multiple document interface<br>
+application using Qt..]]>
+            </en>
+        </word>
+    </words>
+</rdv>

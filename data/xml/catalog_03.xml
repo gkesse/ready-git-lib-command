@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+   <product reference="REF123">
+      <name>ZigBee ReadyDev</name>
+      <price>2.50</price>
+   </product>
+</catalog>

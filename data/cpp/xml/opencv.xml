@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdv>
+    <opencv>
+        <name>load/image</name>
+        <settings>
+            <setting>
+                <name>window</name>
+                <title>ReadyOpenCV</title>
+                <width>400</width>
+                <height>400</height>
+                <waitkey>33</waitkey>
+                <bgcolor> 0 ;50;0</bgcolor>
+            </setting>
+            <setting>
+                <name>server</name>
+                <timer>100</timer>
+            </setting>
+        </settings>
+    </opencv>
+</rdv>

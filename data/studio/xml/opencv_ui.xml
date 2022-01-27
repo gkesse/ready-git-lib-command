@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdv>
+    <settings>
+        <appname>ReadyOpenCV</appname>
+        <version>1.0</version>
+        <width>400</width>
+        <height>400</height>
+        <logo>readydev.png</logo>
+        <debug>1</debug>
+    </settings>
+    <menus>
+        <menu>
+            <name>Master</name>
+            <submenus>
+                <submenu>
+                    <name>Arrêter le serveur</name>
+                    <key>master/server/stop</key>
+                </submenu>
+            </submenus>
+        </menu>
+        <menu>
+            <name>OpenCV</name>
+            <submenus>
+                <submenu>
+                    <name>Ouvrir OpenCV</name>
+                    <key>opencv/run</key>
+                </submenu>
+            </submenus>
+        </menu>
+        <menu>
+            <name>Image</name>
+            <submenus>
+                <submenu>
+                    <name>Ouvrir une image...</name>
+                    <key>image/open/file</key>
+                </submenu>
+            </submenus>
+        </menu>
+    </menus>
+    <datas>
+        <data>
+            <code>test/page/buttons</code>
+            <map>
+                <button>
+                    <name>Envoyer</name>
+                    <key>test/page/button/send</key>
+                </button>
+                <button>
+                    <name>Charger</name>
+                    <key>test/page/button/load</key>
+                </button>
+                <button>
+                    <name>Nettoyer</name>
+                    <key>test/page/button/clear</key>
+                </button>
+            </map>
+        </data>
+        <data>
+            <code>test/page/xml/filename</code>
+            <filename>C:/Users/Admin/Downloads/Programs/ReadyData/data/cpp/xml/z_test.xml</filename>
+        </data>
+    </datas>
+</rdv>
