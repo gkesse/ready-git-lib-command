@@ -10,33 +10,25 @@ QWidget {
 }
 /* ============================================== */
 QPushButton {
-	background-color: rgba(255, 255, 255, 0.4);
+	border: 2px solid #aaaaff;
 	border-radius: 5px;
 	padding: 10px;
 }
 QPushButton:hover {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 QPushButton:pressed {
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: transparent;
 }
 /* ============================================== */
 QLineEdit {
-	background-color: rgba(255, 255, 255, 0.3);
-	border: 2px solid #A0A0A0;
+	border: 2px solid #aaaaff;
 	border-radius: 5px;
-	padding: 7px;
-}
-/* ============================================== */
-QScrollArea {
-	background-color: rgba(255, 255, 255, 0);
-	margin-bottom: 10px;
-	min-width: 0px;
-	min-height: 0px;
+	padding: 9px;
 }
 /* ============================================== */
 QScrollBar:horizontal {
-    border-top: 2px solid transparent;
+    border-top: 5px solid transparent;
     background: transparent;
     height: 10px;
     margin: 0px 10px 0px 10px;
@@ -47,14 +39,14 @@ QScrollBar::handle:horizontal {
 }
 QScrollBar::add-line:horizontal {
     border: none;
-    background: #111111;
+    background: transparent;
     width: 10px;
     subcontrol-position: right;
     subcontrol-origin: margin;
 }
 QScrollBar::sub-line:horizontal {
     border: none;
-    background: #111111;
+    background: transparent;
     width: 10px;
     subcontrol-position: left;
     subcontrol-origin: margin;
@@ -62,18 +54,18 @@ QScrollBar::sub-line:horizontal {
 QScrollBar:left-arrow:horizontal, 
 QScrollBar::right-arrow:horizontal {
     border: none;
-    width: 3px;
-    height: 3px;
+    width: 5px;
+    height: 5px;
     background: rgba(255, 255, 255, 0.4);
+	margin-top: 5px;
 }
-
 QScrollBar::add-page:horizontal, 
 QScrollBar::sub-page:horizontal {
-    background: #111111;
+    background: transparent;
 }
 /* ============================================== */
 QScrollBar:vertical {
-	border-left: 2px solid transparent;
+	border-left: 5px solid transparent;
 	background: transparent;
 	width: 10px;
 	margin: 10px 0px 10px 0px;
@@ -84,14 +76,14 @@ QScrollBar::handle:vertical {
 }
 QScrollBar::add-line:vertical {
 	border: none;
-	background: #111111;
+	background: transparent;
 	height: 10px;
 	subcontrol-position: bottom;
 	subcontrol-origin: margin;
 }
 QScrollBar::sub-line:vertical {
 	border: none;
-	background: #111111;
+	background: transparent;
 	height: 10px;
 	subcontrol-position: top;
 	subcontrol-origin: margin;
@@ -99,30 +91,54 @@ QScrollBar::sub-line:vertical {
 QScrollBar::up-arrow:vertical, 
 QScrollBar::down-arrow:vertical {
 	border: none;
-	width: 3px;
-	height: 3px;
+	width: 5px;
+	height: 5px;
 	background: rgba(255, 255, 255, 0.4);
+	margin-left: 5px;
 }
 QScrollBar::add-page:vertical, 
 QScrollBar::sub-page:vertical {
-	background: #111111;
+	background: transparent;
 }
 /* ============================================== */
 /* special */
 /* ============================================== */
 QPushButton#button_icon {
-	background-color: rgba(255, 255, 255, 0.4);
+	border: 2px solid #aaaaff;
 	padding-right: 50px;
 }
 QPushButton#button_icon:hover {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 QPushButton#button_icon:pressed {
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: transparent;
 }
 QPushButton#button_icon_icon,
 QPushButton#button_icon_icon:hover,
 QPushButton#button_icon_icon:pressed {
+	border: none;
+	background-color: transparent;
+	padding: 0px;
+}
+/* ============================================== */
+QPushButton#button_icon_round {
+	border: 2px solid #aaaaff;
+	width: 30px;
+	height: 30px;
+	border-radius: 17px;
+	padding: 0px;
+}
+QPushButton#button_icon_round:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+QPushButton#button_icon_round:pressed {
+	background-color: transparent;
+}
+/* ============================================== */
+QPushButton#plan_button_title,
+QPushButton#plan_button_title:hover,
+QPushButton#plan_button_title:pressed {
+	border: none;
 	background-color: transparent;
 	padding: 0px;
 }
@@ -133,8 +149,18 @@ QLineEdit#lineedit_icon {
 QPushButton#lineedit_icon_icon,
 QPushButton#lineedit_icon_icon:hover,
 QPushButton#lineedit_icon_icon:pressed {
+	border: none;
 	background-color: transparent;
 	padding: 0px;
+}
+/* ============================================== */
+QFrame#plan_box {
+	border: 2px solid #aaaaff;
+	border-radius: 5px;
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 105px;
+	max-height: 105px;
 }
 /* ============================================== */
 /* custom */
@@ -144,7 +170,7 @@ QFrame#plan {
 }
 /* ============================================== */
 QFrame#plan_search {
-	background-color: #555555;
+	border: 2px solid #aaaaff;
 	border-radius: 5px;
 	max-width: 0px;
 }

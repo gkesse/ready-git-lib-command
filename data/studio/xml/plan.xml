@@ -18,12 +18,79 @@
 				</data>
 				<data>
 					<type>message</type>
-					<text>Des millions de petites annonces et autant d’occasions de se faire plaisir</text>
-					<font_size>18</font_size>
-					<font_color>cyan</font_color>
+					<map>
+						<data>
+							<type>spacer</type>
+						</data>
+						<data>
+							<type>label</type>
+							<text>Des millions de petites annonces et autant d’occasions de se faire plaisir</text>
+							<font_size>18</font_size>
+							<font_color>#aaaaff</font_color>
+						</data>
+						<data>
+							<type>spacer</type>
+						</data>
+					</map>
 				</data>
 				<data>
 					<type>searchbar</type>
+				</data>
+				<data>
+					<type>quick_access</type>
+				</data>
+				<data>
+					<type>message</type>
+					<map>
+						<data>
+							<type>spacer</type>
+						</data>
+						<data>
+							<type>button</type>
+							<name>Recherches récentes</name>
+							<font_size>20</font_size>
+							<font_color>#aaffaa</font_color>
+							<picto>search</picto>
+							<picto_color>#aaffaa</picto_color>
+							<picto_size>20</picto_size>
+						</data>
+						<data>
+							<type>spacer</type>
+						</data>
+					</map>
+				</data>
+				<data>
+					<type>recent_search</type>
+				</data>
+				<data>
+					<type>top_category</type>
+				</data>
+				<data>
+					<type>holiday</type>
+				</data>
+				<data>
+					<type>location_map</type>
+				</data>
+				<data>
+					<type>community</type>
+				</data>
+				<data>
+					<type>motivation</type>
+				</data>
+				<data>
+					<type>quick_link</type>
+				</data>
+				<data>
+					<type>about</type>
+				</data>
+				<data>
+					<type>partner</type>
+				</data>
+				<data>
+					<type>social_networks</type>
+				</data>
+				<data>
+					<type>spacer</type>
 				</data>
 			</map>
 		</data>
@@ -34,19 +101,19 @@
 					<type>button</type>
 					<name>ReadyPlan</name>
 					<picto>cartplus</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 				</data>
 				<data>
 					<type>button</type>
 					<name>Déposer une annonce</name>
 					<picto>plussquareo</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 				</data>
 				<data>
 					<type>button</type>
 					<name>Rechercher</name>
 					<picto>search</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 				</data>
 				<data>
 					<type>spacer</type>
@@ -55,70 +122,213 @@
 					<type>button</type>
 					<name>Recherches</name>
 					<picto>bello</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 				</data>
 				<data>
 					<type>button</type>
 					<name>Favoris</name>
 					<picto>hearto</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 				</data>
 				<data>
 					<type>button</type>
 					<name>Messages</name>
 					<picto>commentso</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 				</data>
 				<data>
 					<type>button</type>
 					<name>Connexion</name>
 					<picto>usero</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 				</data>
 			</map>
 		</data>
 		<data>
 			<code>app/searchbar</code>
 			<map>
+				<!-- offer_layout -->
 				<data>
-					<category>top</category>
+					<category>offer_layout</category>
 					<type>radiobutton</type>
 					<name>Offres</name>
 				</data>
 				<data>
-					<category>top</category>
+					<category>offer_layout</category>
 					<type>radiobutton</type>
 					<name>Demandes</name>
 				</data>
 				<data>
-					<category>top</category>
+					<category>offer_layout</category>
 					<type>spacer</type>
 				</data>
+				<!-- location_layout -->
 				<data>
-					<category>center</category>
+					<category>location_layout</category>
 					<type>button/icon</type>
 					<name>Catégories</name>
 					<picto>chevrondown</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 				</data>
 				<data>
-					<category>center</category>
+					<category>location_layout</category>
 					<type>lineedit/icon</type>
 					<name>Que recherchez-vous ?</name>
 					<picto>search</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 					<min_width>300</min_width>
 				</data>
 				<data>
-					<category>center</category>
+					<category>location_layout</category>
 					<type>lineedit/icon</type>
 					<name>Saisissez une ville et un rayon</name>
 					<picto>mapmarker</picto>
-					<picto_color>#ffffff</picto_color>
+					<picto_color>#aaaaff</picto_color>
 					<min_width>300</min_width>
 				</data>
 				<data>
-					<category>center</category>
+					<category>location_layout</category>
+					<type>spacer</type>
+				</data>
+				<!-- filter_layout -->
+				<data>
+					<category>filter_layout</category>
+					<type>button</type>
+					<name>Prix</name>
+				</data>
+				<data>
+					<category>filter_layout</category>
+					<type>spacer</type>
+				</data>
+				<!-- delivery_layout -->
+				<data>
+					<category>delivery_layout</category>
+					<type>checkbox</type>
+					<name>Voir également les annonces disponibles en livraison</name>
+				</data>
+				<data>
+					<category>delivery_layout</category>
+					<type>button/icon/round</type>
+					<picto>question</picto>
+					<picto_size>20</picto_size>
+					<picto_color>#aaaaff</picto_color>
+				</data>
+				<data>
+					<category>delivery_layout</category>
+					<type>spacer</type>
+				</data>
+				<!-- search_layout -->
+				<data>
+					<category>search_layout</category>
+					<type>button</type>
+					<name>Rechercher</name>
+				</data>
+				<!-- end -->
+			</map>
+		</data>
+		<data>
+			<code>app/quick_access</code>
+			<map>
+				<data>
+					<type>spacer</type>
+				</data>
+				<data>
+					<type>button/icon</type>
+					<name>Déposer une annonce</name>
+					<picto>plussquareo</picto>
+					<picto_color>#aaaaff</picto_color>
+				</data>
+				<data>
+					<type>spacer</type>
+				</data>
+			</map>
+		</data>
+		<data>
+			<code>app/recent_search</code>
+			<map>
+				<data>
+					<type>spacer</type>
+				</data>
+				<!-- box -->
+				<data>
+					<type>box</type>
+					<min_width>100</min_width>
+					<map>
+						<data>
+							<category>title_layout</category>
+							<type>label</type>
+							<text>Nettoyage et entreprise</text>
+							<font_size>16</font_size>
+							<font_color>#ffaaaa</font_color>
+						</data>
+						<data>
+							<category>category_layout</category>
+							<type>label</type>
+							<text>Toutes catégories</text>
+							<font_size>14</font_size>
+							<font_color>#aaffaa</font_color>
+						</data>
+						<data>
+							<category>main_layout</category>
+							<type>spacer</type>
+						</data>
+						<data>
+							<category>location_layout</category>
+							<type>button</type>
+							<name>Paris (75010)</name>
+							<font_size>14</font_size>
+							<font_color>#aaffaa</font_color>
+							<picto>mapmarker</picto>
+							<picto_size>20</picto_size>
+							<picto_color>#aaaaff</picto_color>
+						</data>
+						<data>
+							<category>location_layout</category>
+							<type>spacer</type>
+						</data>
+					</map>
+				</data>
+				<!-- box -->
+				<data>
+					<type>box</type>
+					<min_width>100</min_width>
+					<map>
+						<data>
+							<category>title_layout</category>
+							<type>label</type>
+							<text>Nettoyage et entreprise oooooooo</text>
+							<font_size>16</font_size>
+							<font_color>#ffaaaa</font_color>
+						</data>
+						<data>
+							<category>category_layout</category>
+							<type>label</type>
+							<text>Toutes catégories</text>
+							<font_size>14</font_size>
+							<font_color>#aaffaa</font_color>
+						</data>
+						<data>
+							<category>main_layout</category>
+							<type>spacer</type>
+						</data>
+						<data>
+							<category>location_layout</category>
+							<type>button</type>
+							<name>Paris (75010)</name>
+							<font_size>14</font_size>
+							<font_color>#aaffaa</font_color>
+							<picto>mapmarker</picto>
+							<picto_size>20</picto_size>
+							<picto_color>#aaaaff</picto_color>
+						</data>
+						<data>
+							<category>location_layout</category>
+							<type>spacer</type>
+						</data>
+					</map>
+				</data>
+				<!-- end -->
+				<data>
 					<type>spacer</type>
 				</data>
 			</map>
