@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdv>
-    <process>
-        <name>socket</name>
-        <nameuse>0</nameuse>
-        <procshow>0</procshow>
-        <argshow>0</argshow>
-    </process>
-</rdv>
